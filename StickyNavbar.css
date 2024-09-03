@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+header{
+    background-color: black;
+    color: white;
+    top:0;
+    position: sticky;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right ul{
+    display: flex;
+    gap:25px;
+}
+.right ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+.ipsum-text{
+    padding: 10px 10%;
+    margin-top: 20px;
+}
